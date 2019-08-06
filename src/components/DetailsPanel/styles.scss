@@ -1,2 +1,15 @@
 .details{
+	flex-basis: 50%;
+	padding: 1em;
+	ul{
+		display: flex;
+		flex-wrap: wrap;
+		li{
+			flex-basis: 45%;
+			padding: .5em 0.5em;
+			font-size: 18px;
+			border-top: 1px solid #DDD;
+			border-bottom: 1px solid #DDD;
+		}
+	}
 }
